@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Johan Eliu Salgado | Desarrollador Web</title>
+
+  <!-- PicoCSS desde CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <!-- Estilos propios -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ENCABEZADO / INFORMACIÓN PERSONAL -->
+  <header class="container">
+    <div class="perfil-header">
+      <div>
+        <h1>Johan Eliu Salgado</h1>
+        <p>Desarrollador Web Front-End</p>
+        <p>Tuluá, Valle del Cauca, Colombia</p>
+      </div>
+    </div>
+
+    <!-- NAVEGACIÓN -->
+    <nav>
+      <ul>
+        <li><a href="#perfil">Perfil</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#certificaciones">Certificaciones</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+
+    <!-- PERFIL PROFESIONAL -->
+    <section id="perfil">
+      <h2>Perfil Profesional</h2>
+      <article>
+        <p>
+          Estudiante de Ingeniería de Sistemas con interés en el desarrollo web front-end.
+          Me gusta crear interfaces claras, ordenadas y responsivas usando HTML5, CSS3 y
+          buenas prácticas de accesibilidad. Actualmente estoy aprendiendo a combinar
+          frameworks como PicoCSS con estilos propios para lograr diseños simples y funcionales.
+        </p>
+      </article>
+    </section>
+
+    <!-- FORMACIÓN ACADÉMICA -->
+    <section id="formacion">
+      <h2>Formación Académica</h2>
+      <article>
+        <h3>Ingeniería de Sistemas</h3>
+        <p><strong>Unidad Central del Valle del Cauca (UCEVA)</strong> — 2023 - Presente</p>
+        <p>Curso: Programación en Ambiente Web I</p>
+      </article>
+      <article>
+        <h3>Bachillerato Académico</h3>
+        <p><strong>Institución Educativa Ejemplo</strong> — 2018 - 2022</p>
+      </article>
+    </section>
+
+    <!-- EXPERIENCIA -->
+    <section id="experiencia">
+      <h2>Experiencia</h2>
+      <article>
+        <h3>Practicante de Desarrollo Web</h3>
+        <p><strong>Empresa Ejemplo S.A.S</strong> — 2025</p>
+        <p>Apoyo en la maquetación de páginas web con HTML5 y CSS3, corrección de errores
+          de diseño y ajustes de responsividad en distintos dispositivos.</p>
+      </article>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades">
+      <h2>Habilidades</h2>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Habilidad</th>
+            <th scope="col">Nivel</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>HTML5</td>
+            <td>Intermedio</td>
+          </tr>
+          <tr>
+            <td>CSS3</td>
+            <td>Intermedio</td>
+          </tr>
+          <tr>
+            <td>PicoCSS</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <td>Diseño Responsive</td>
+            <td>Básico</td>
+          </tr>
+          <tr>
+            <td>Trabajo en equipo</td>
+            <td>Avanzado</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos">
+      <h2>Proyectos</h2>
+      <div class="grid">
+        <article>
+          <h3>CV Web Personal</h3>
+          <p>Hoja de vida en HTML5, CSS3 y PicoCSS, desarrollada como proyecto académico.</p>
+        </article>
+        <article>
+          <h3>Landing Page Cafetería</h3>
+          <p>Página de una sola vista con menú, ubicación y formulario de contacto.</p>
+        </article>
+        <article>
+          <h3>Galería de Fotos Responsive</h3>
+          <p>Galería adaptable a móvil, tablet y escritorio usando CSS Grid.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CURSOS Y CERTIFICACIONES -->
+    <section id="certificaciones">
+      <h2>Cursos y Certificaciones</h2>
+      <ul>
+        <li>Fundamentos de HTML5 y CSS3 — UCEVA (2026)</li>
+        <li>Introducción a Git y GitHub — Curso en línea (2025)</li>
+        <li>Diseño Responsive con Flexbox y Grid — Curso en línea (2025)</li>
+      </ul>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <form>
+        <label for="nombre">Nombre completo</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="email">Correo electrónico</label>
+        <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar mensaje</button>
+      </form>
+
+      <ul class="datos-contacto">
+        <li>Correo: johan.salgado@ejemplo.com</li>
+        <li>GitHub: github.com/johansalgado</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- PIE DE PÁGINA -->
+  <footer class="container">
+    <p>&copy; 2026 Johan Eliu Salgado — Proyecto académico Programación en Ambiente Web I</p>
+  </footer>
+
+</body>
+</html>
