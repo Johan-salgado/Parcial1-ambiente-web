@@ -37,15 +37,8 @@ cv-project/
 └── README.md
 ```
 
-## Cómo verlo
-
-1. Clonar este repositorio.
-2. Abrir el archivo `index.html` en el navegador.
-
-No requiere instalación ni dependencias adicionales, PicoCSS se carga desde un CDN.
-
 ## Autor
 
 **Nombre completo:** Johan Eliu Salgado
-**Código del estudiante:** 000000000
+**Código del estudiante:** 230232033
 **Repositorio GitHub:** https://github.com/tu-usuario/cv-web
